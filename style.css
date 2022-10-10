@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #86a8e7, #61b8f1, #35c7f1, #17d4e7, #3edfd4);
+}
+
+#cal {
+    width: 200px;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 5px 3px rgba(0,0,0,0.20);
+    padding: 40px 110px 30px 110px;
+    border-radius: 4px;
+    
+}
+
+#cal h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tul{
+    margin-left: -50px;
+    line-height: 30px;
+}
+#height{
+    margin-left: -50px;
+    padding-right: 100px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 5px;
+    border: solid 0.5px black;
+    
+
+}
+
+#weight{
+    margin-left: -50px;
+    padding-right: 100px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 0.5px black;
+    border-radius: 5px;
+
+}
+
+#btn {
+    margin-left: 50px;
+    margin-top: 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    background-image: linear-gradient(to right top, #86a8e7, #61b8f1, #35c7f1, #17d4e7, #3edfd4);
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+}
+
+#btn:hover{
+    box-shadow: 0 0 5px rgba(33,33,33,.2); 
+    transform: scale(1.03);
+    
+}
+#output{
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 20px;
+}
+
+#weight_error{
+    color: red;
+    opacity: 0.85;
+
+}
+
+#height_error{
+    color: red;
+    opacity: 0.85;
+
+}
+
+
+
+
